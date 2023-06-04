@@ -15,7 +15,7 @@ class ProfilePage extends StatelessWidget {
           decoration: const BoxDecoration(
             image: DecorationImage(
                 image: AssetImage(
-                  'assets/background.png',
+                  'assets/Gradient-Background-Wallpaper-002.jpg',
                 ),
                 fit: BoxFit.cover),
           ),
@@ -26,16 +26,16 @@ class ProfilePage extends StatelessWidget {
             children: [
               const CircleAvatar(
                 radius: 55,
-                backgroundImage: AssetImage('assets/lens.jpeg'),
+                backgroundImage: AssetImage('assets/Me.jpeg'),
               ),
               const SizedBox(
                 height: 5,
               ),
               Text(
-                'Lens',
+                'Mario Paath',
                 style: titleTextStyle.copyWith(
                     letterSpacing: 2,
-                    color: Colors.deepPurple,
+                    color: Colors.white,
                     fontSize: 20,
                     fontWeight: FontWeight.w800),
               ),
@@ -43,14 +43,14 @@ class ProfilePage extends StatelessWidget {
                 height: 10,
               ),
               Text(
-                'Senior Flutter Developer',
+                'Not Senior Flutter Developer',
                 style: titleTextStyle.copyWith(
-                    color: Colors.black, fontWeight: FontWeight.bold),
+                    color: Colors.white, fontWeight: FontWeight.bold),
               ),
               const SizedBox(
                 height: 5,
               ),
-              const Text('nyenyenyenyenye sipaling flutter')
+              const Text('apa itu flutter?')
             ],
           ),
         )
